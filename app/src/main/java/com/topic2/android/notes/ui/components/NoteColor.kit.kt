@@ -26,11 +26,11 @@ fun NoteColor(
     Box(
         modifier = modifier
             .size(size)
-            .background(color)
             .clip(CircleShape)
+            .background(color)
             .border(
                 BorderStroke(
-                    2.dp,
+                    border,
                     SolidColor(Color.Black)
                 ),
                 CircleShape
